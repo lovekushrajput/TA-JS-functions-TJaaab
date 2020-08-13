@@ -1,36 +1,28 @@
 // Use default parameter where ever you can
 
-/* 1. Calculator
+/* 1. minToSec
 
-Write a function named `calculator` that accepts three parameter
+Write a function naed minToSec that takes an integer minutes and converts it to seconds.
 
-- operation ('add', 'sub', 'mul','divide')
-- num1 (number)
-- num2 (number)
 
-  and if operation is
-
-  - 'add' return num1 + num2
-  - 'sub' return num1 - num2
-  - 'mul' return num1 * num2
-  - 'div' return num1 / num2
+minToSec(50) ➞ 3000
+minToSec(13) ➞ 780
+minToSec(2) ➞ 120
 */
 
 // - Write a Function Decleration for above problem
-function calculator() {
+function minToSec() {
   // Your code
 }
 // - Execute the function with required parameter
 
-/* 2. Grade calculator.
+/* 2. 
+Create a function named isInRange which validates whether a number n is exclusively within the bounds of lower and upper.
+Return true and false based on that.
 
-Write a function named `calculateGrade` that accepts a number (marks below 500) calculates the percentage out of (500) and returns the grade as following:
-
-- "A": 90-100%
-- "B": 80-89%
-- "C": 70-79%
-- "D": 60-69%
-- "F": 0-59%
+The function accepts three parameter lower, upper and the number.
+isInRange(1, 20, 9); // true
+isInRange(1, 10, 19); // false
 */
 
 // - Write a Function Decleration for above problem
@@ -39,43 +31,35 @@ function calculateGrade() {
 }
 // - Execute the function with required parameter
 
-/* 3. Read the questions and do what is asked.
+/* 2. calculateBMI
 
-Write a function named `getFullName` that accepts two strings (firstName, lastName) and return the full name with an space between firstName and lastName
+Body mass index(BMI) is calculated as follows: bmi = weight / (height x height). Write a function which calculates bmi.
+BMI is used to broadly define different weight groups.
+Check if a person is underweight, normal, overweight or obese based the information given below.
 
-Do the following with above problem:
+These are the conditions:
+
+Underweight: BMI is less than 18.5
+Normal weight: BMI is 18.5 to 24.9
+Overweight: BMI is 25 to 29.9
+Obese: BMI is 30 or more
+
+Take two arguments weight and height and return `Underweight`, `Normal` etc based on data.
+
 */
 
-// - Write a Function Decleration
-function getFullName() {
-  // Your code
-}
+/* 3. appropiateDrinks
 
-// - Write an named Function Expression
-// - Write an Arrow Function
-// - Execute the function
-// - Execute the function and store the return value in a variable.
-// - What is the `typeof` returnValue
+Create a function that take the age are return the appropiate drink based on these conditions:
 
-/* 4. toCelsius
+- Under 14 years old — return "drink fruit juice"
+- Under 18 years old — return "drink soda"
+- Under 21 — return "drink fruit-flavored beer"
+- 21 years or older — return "drink throat-piercing vodka"
 
-Write a function `toCelsius` which converts temperature from Fahrenheit to Celsius:
 */
 
-// - Write a Function Decleration for above problem
-
-// - Execute the function with required parameter
-
-function toCelsius() {
-  // Your code
-}
-
-// Function Test
-toCelsius(32); // 0
-toCelsius(86); // 30
-toCelsius(90); // 32.22
-
-/* 5. Add two numers or string
+/* 4. Add two numers or string
 
 Write a function that accepts two numbers or string and returns the sum of the numbers and concatenation of the strings.
 Twist is when user passes anything other than number, or string value you should be able to handle that.
