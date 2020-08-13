@@ -154,7 +154,7 @@ Do the following with above problem.
 
 // - Write an named Function Expression
 
-// - Write an Arrow Function without curly brackets(if possible)
+// - Write an Arrow Function without curly brackets (hint: use ternary operator)
 
 // - Write an Arrow Function with curly brackets
 
