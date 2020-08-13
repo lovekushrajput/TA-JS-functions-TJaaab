@@ -2,7 +2,7 @@
 
 /* 1. minToSec
 
-Write a function naed minToSec that takes an integer minutes and converts it to seconds.
+Write a function named minToSec that takes an integer minutes and converts it to seconds.
 
 
 minToSec(50) ➞ 3000
@@ -26,12 +26,15 @@ isInRange(1, 10, 19); // false
 */
 
 // - Write a Function Decleration for above problem
-function calculateGrade() {
+function isInRange() {
   // Your code
 }
 // - Execute the function with required parameter
 
 /* 2. calculateBMI
+
+
+Take two arguments weight and height and return `Underweight`, `Normal` etc based on data.
 
 Body mass index(BMI) is calculated as follows: bmi = weight / (height x height). Write a function which calculates bmi.
 BMI is used to broadly define different weight groups.
@@ -44,9 +47,11 @@ Normal weight: BMI is 18.5 to 24.9
 Overweight: BMI is 25 to 29.9
 Obese: BMI is 30 or more
 
-Take two arguments weight and height and return `Underweight`, `Normal` etc based on data.
-
 */
+
+function calculateBMI() {
+  // Your code
+}
 
 /* 3. appropiateDrinks
 
@@ -58,6 +63,10 @@ Create a function that take the age are return the appropiate drink based on the
 - 21 years or older — return "drink throat-piercing vodka"
 
 */
+
+function appropiateDrinks() {
+  // Your code
+}
 
 /* 4. Add two numers or string
 
