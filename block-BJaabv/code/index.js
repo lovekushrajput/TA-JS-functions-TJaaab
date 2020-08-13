@@ -4,7 +4,7 @@
 1. 🎖Write a function named calculateDogAge that:
   * [ ] Takes 1 argument: your puppy's age.
   * [ ] Calculates your dog's age based on the conversion rate of 1 human year to 7 dog years.
-  * [ ] Outputs the result to the screen like so: "Your doggie is NN years old in dog years!"
+  * [ ] Return the result dog age in dog year.
   * [ ] Add an additional argument to the function that takes the conversion rate of human to dog years.
 */
 
@@ -14,8 +14,8 @@ function calculateDogAge() {
 
 /*
 2. 🎖Write a function named calculateMoviesToWatch that:
-  * [ ] takes 2 arguments: age, number of movie watch every week. (take 4 weeks per month)
-  * [ ] calculates the amount consumed for rest of the life (based on a constant max age).
+  * [ ] takes 2 arguments: age, number of movies you watch every week. (take 4 weeks per month)
+  * [ ] calculates the number of movies for rest of the life (based on a constant max age).
   * [ ] Return the total number of movie you will watch.
 */
 
