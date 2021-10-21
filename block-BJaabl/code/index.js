@@ -51,27 +51,28 @@ calc(20, 10, 'sub'); // 10
 calc(20, 10, 'mul'); // 200
 */
 function calc (numA , numB , Operation){
-  if(typeof numA == 'number' && typeof numB == 'number') {
-  } else{
+  if(
+    typeof numA !== "number" ||
+    typeof numB !== "number"
+    ) {
     alert("Enter Valid Input")
-  } 
+  } else {
   switch(Operation){
     case "add": 
     return numA + numB;
-    break;
+  
     case "sub": 
     return numA - numB;
-    break;
+    
     case "mul": 
     return numA * numB;
-    break;
+  
     case "div": 
     return numA / numB;
-    break;
-    default:{
-      alert("Enter Valid Input")
-    }
   
+    default:
+      alert("Enter Valid operation")
+    }
   }
 }
  calc(2, 4, "add")
